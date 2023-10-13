@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>The land of bananas</title>
+</head>
+<body>
+    <!--Score-->
+   <div class="container-fluid" id="container">
+     <!--Bananas-->
+    <div class="bananas" id="bananas"></div>
+    <div class="row mt-3">
+        <div class="col text-center">
+            <p class="ms-5 parScore score" id="score">SCORE: </p>
+        </div>
+        <!-- <div class="col">
+            <p class="parScore hiscore" id="hiscore">HI-SCORE: </p>
+        </div> -->
+        <div class="col text-center">
+            <p class="parScore caught" id="caught">BANANA CAUGHT: </p>
+        </div>
+        <div class="col">
+            <p class="parScore missed" id="missed">BANANA MISSED: </p>
+        </div>
+    </div>
+    <!--Play-->
+     <div class="text-center mt-5">
+        <p class="countdown">3</p>
+    </div>
+    <div class="d-flex flex-column align-items-center justify-content-center pt-5" id="divPlay">
+        <img src="./assets/monkey-head.png" alt="Monkey Head" class="imgForPlay" id="imgPlay">
+        <p class="play" id="play">PLAY!</p>
+    </div>
+    <!--Monkey-->
+    <div class="monkey" id="monkey">
+        <img src="./assets/cute-monkey.png" alt="Cute Monkey" class="basket" id="basket">
+    </div>
+   
+   </div>
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <script src="main.js"></script>
+</body>
+</html>
+

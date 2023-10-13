@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Aclonica;
+}
+body{
+    background-image: url(./assets/maxresdefault.jpg);
+    background-repeat: no-repeat;  
+}
+
+/*PARAGRAPHS*/
+.parScore{
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #fff;
+}
+
+/*PLAY*/
+.countdown{
+    font-size: 8em;
+    font-weight: 700;
+    color: #1B1464;
+    opacity: .5;
+    display: none;
+}
+.imgForPlay{
+    width: 15em;
+    /* margin-top: 12em; */
+    cursor: pointer;
+}
+.play{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #1B1464;
+}
+
+/*CUTE MONKEY*/
+.basket{
+    width: 130px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 1.2em);
+    display: none;
+}
+
+/*BANANA*/
+.banana{
+    position: absolute;
+    width: 2.3em;
+}
+
+.monkeyLaugh{
+    width: 130px;
+    position: absolute;
+    bottom: 0;
+    left: calc(50% - 1.2em); 
+}
+
+.text{
+   width: 12em;
+   margin-left: 10em;
+   color: #EA2027;
+   opacity: .7;
+   animation: crescendo 1.5s alternate infinite ease-in;
+}
+@keyframes crescendo {
+  0%   {transform: scale(.8);}
+  100% {transform: scale(1.5);}
+}
+
+.btn{
+    margin-left: 37em;
+}
